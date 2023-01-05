@@ -49,6 +49,9 @@ console.log('--- 3. Nested arrays ---')
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
+//***COMMENTS:
+//      use the square bracket to access the index;
+//      reminder - index starts at 0; zero would be our first item on our array list and so forth
 console.log('First favorite food - should be "sushi":', me.favThreeFoods[0]); // 1st food (steak)
 console.log('Middle favorite food - should be "noodle":', me.favThreeFoods[1]); // 2nd food (noodle)
 console.log('Last favorite food - should be "steak":', me.favThreeFoods[2]); // 3rd food (steak)
@@ -60,6 +63,11 @@ console.log('--- 4. Change a property of an existing object. ---')
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
+//***COMMENTS:
+//      access the object with dot notation and name the property 
+//      then with the operator = (assignor) update the new changes you want to the right 
+me.shoeCount = 6; 
+console.log('Got a new pair of shoes! Updated shoeCount:', me.shoeCount); //should be 6 total
 
 console.log('---  5. Add a new property to an existing object. ---')
 /* 5. Add a new property to an existing object.
@@ -68,3 +76,7 @@ console.log('---  5. Add a new property to an existing object. ---')
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+//***COMMENTS:
+//
+//
+//
