@@ -9,9 +9,19 @@ console.log('***** Object Practice *****')
   - Also give it an array 'favThreeFoods'
 */
 const me = {
-  // TODO - add properties here
+  // TODO - add properties here:
+  'firstName': 'Xai',
+  'lastName': 'Hang',
+  'hasSiblings': true,
+  'shoeCount': 5,
+  'favThreeFoods': ['sushi','noodles','steak']
 };
 console.log('A little about me:', me);
+//  putting all the properties into a sentence: 
+console.log(`Hello! My name is ${me.firstName} ${me.lastName}. 
+It's ${me.hasSiblings} I have a village full of siblings!
+I have ${me.shoeCount} pairs of shoes I love. 
+And my three favorite foods are ${me.favThreeFoods[0]}, ${me.favThreeFoods[1]}, and ${me.favThreeFoods[2]}.`);
 
 /* 2. Accessing object properties.
   - Create a variable called fullName 
