@@ -77,6 +77,17 @@ console.log('---  5. Add a new property to an existing object. ---')
   - Console.log your object
 */
 //***COMMENTS:
-//
-//
-//
+//      you can add new properties to an existing object by simply giving it a value
+me.favoriteColor = 'purple';
+console.log('My favoriteColor is:', me.favoriteColor);// new value is 'purple'
+console.log('A log about me:', me); 
+// A log about me: {
+//   firstName: 'Xai',
+//   lastName: 'Hang',
+//   hasSiblings: true,
+//   shoeCount: 6,
+//   favThreeFoods: [ 'sushi', 'noodles', 'steak' ],
+//   favoriteColor: 'purple'
+// }
+
+
