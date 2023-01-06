@@ -40,7 +40,7 @@ console.log('--- 2. Accessing object properties ---')
 //    3 ways to access properties of an object:
 //        1. dot property accessor: object.property 
 //        2. square brackets property access: object['property']
-//        3. object destructuring: const {property} = object
+//        3. Using Object.defineProperty() Method
 const fullName = me.firstName + ' ' + me.lastName;
 console.log('Full name is:', fullName);
 
