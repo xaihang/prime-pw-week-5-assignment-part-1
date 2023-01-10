@@ -53,7 +53,7 @@ console.log('--- 3. Nested arrays ---')
 //      use the square bracket to access the index;
 //      reminder - index starts at 0; zero would be our first item on our array list and so forth
 console.log('First favorite food - should be "sushi":', me.favThreeFoods[0]); // 1st food (steak)
-console.log('Middle favorite food - should be "noodle":', me.favThreeFoods[1]); // 2nd food (noodle)
+// console.log('Middle favorite food - should be "noodle":', me.favThreeFoods[1]); // 2nd food (noodle)
 console.log('Last favorite food - should be "steak":', me.favThreeFoods[2]); // 3rd food (steak)
 
 console.log('--- 4. Change a property of an existing object. ---')
